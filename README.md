@@ -1,21 +1,21 @@
 # -Arxiv-paper-summarizer
-# 📄 arXiv Paper Summarizer
+ 
 
 Automatically fetch research papers from [arXiv](https://arxiv.org/) and generate concise AI-powered summaries using a transformer model — all saved to a clean CSV file.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🔍 Fetches up to **200 papers** from arXiv on any topic
-- 🤖 Summarizes abstracts using **DistilBART** (distilbart-cnn-12-6)
-- 📊 Exports results to a structured **CSV file**
-- ⚡ Progress bar via `tqdm` for real-time feedback
-- 🛠️ Configurable query, result count, and sorting
+-  Fetches up to **200 papers** from arXiv on any topic
+-  Summarizes abstracts using **DistilBART** (distilbart-cnn-12-6)
+-  Exports results to a structured **CSV file**
+-  Progress bar via `tqdm` for real-time feedback
+-  Configurable query, result count, and sorting
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 arxiv-paper-summarizer/
@@ -29,14 +29,14 @@ arxiv-paper-summarizer/
 
 ---
 
-## 🧰 Requirements
+##  Requirements
 
 - Python 3.8+
 - Google Colab *(recommended)* or a local Jupyter environment with GPU support
 
 ---
 
-## ⚙️ Setup & Usage
+##  Setup & Usage
 
 ### 1. Clone the repository
 
@@ -60,8 +60,8 @@ Open `arxiv_summarizer.ipynb` in **Google Colab** or **Jupyter Lab** and run all
 In the **Fetch Papers** cell, change the query and result count:
 
 ```python
-query = "machine learning"   # 🔁 Change to any topic
-max_results = 200            # 🔁 Change as needed
+query = "machine learning"   #  Change to any topic
+max_results = 200            #  Change as needed
 ```
 
 ### 5. Output
@@ -78,7 +78,7 @@ After running, a file named `arxiv_summaries.csv` will be saved with these colum
 
 ---
 
-## 🐛 Common Issues
+##  Common Issues
 
 **Only getting ~20 results instead of 200?**
 
@@ -97,7 +97,7 @@ Enable GPU in Colab: `Runtime → Change runtime type → T4 GPU`
 
 ---
 
-## 🧠 Model Used
+##  Model Used
 
 | Property | Value |
 |---|---|
@@ -109,7 +109,7 @@ Enable GPU in Colab: `Runtime → Change runtime type → T4 GPU`
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 ```
 arxiv
@@ -123,13 +123,13 @@ tqdm
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 🙌 Acknowledgements
+##  Acknowledgements
 
 - [arXiv API](https://arxiv.org/help/api/) for open access to research papers
 - [HuggingFace Transformers](https://huggingface.co/docs/transformers) for the summarization pipeline
