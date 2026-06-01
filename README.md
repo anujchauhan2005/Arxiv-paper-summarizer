@@ -1,4 +1,4 @@
-# -Arxiv-paper-summarizer
+# Arxiv-paper-summarizer
  
 
 Automatically fetch research papers from [arXiv](https://arxiv.org/) and generate concise AI-powered summaries using a transformer model — all saved to a clean CSV file.
